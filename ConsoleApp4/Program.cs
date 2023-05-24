@@ -27,8 +27,7 @@ class Program
         Console.WriteLine("Количество любимых цветов");
         int Color = CheckIntValue(out intValue);
         Student.StudentColors = Colors(Color);
-        return Student;
-        
+        return Student;        
     }
     static void ShowDataStudent((string Name, string FirstName, int Age, string[] StudentPets, string[] StudentColors) Student)
     {
